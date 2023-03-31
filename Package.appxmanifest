@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  IgnorableNamespaces="uap rescap">
+
+  <Identity
+<<<<<<< HEAD
+    Name="35714f08-7576-47a8-85b9-499ec1d901c8"
+    Publisher="CN=六七社"
+    Version="1.0.1.0" />
+
+  <mp:PhoneIdentity PhoneProductId="35714f08-7576-47a8-85b9-499ec1d901c8" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+
+  <Properties>
+    <DisplayName>lqzk</DisplayName>
+    <PublisherDisplayName>六七社</PublisherDisplayName>
+=======
+    Name="6d4f0c7b-2f3d-4e8d-b3ce-83c485f5a82a"
+    Publisher="CN=chenwenxuan"
+    Version="1.0.0.0" />
+
+  <mp:PhoneIdentity PhoneProductId="6d4f0c7b-2f3d-4e8d-b3ce-83c485f5a82a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+
+  <Properties>
+    <DisplayName>lqzk</DisplayName>
+    <PublisherDisplayName>chenwenxuan</PublisherDisplayName>
+>>>>>>> f3d3819 (添加项目文件。)
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+      Executable="$targetnametoken$.exe"
+      EntryPoint="$targetentrypoint$">
+      <uap:VisualElements
+<<<<<<< HEAD
+        DisplayName="六七周刊"
+=======
+        DisplayName="lqzk"
+>>>>>>> f3d3819 (添加项目文件。)
+        Description="lqzk"
+        BackgroundColor="transparent"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png">
+<<<<<<< HEAD
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"  Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"/>
+=======
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+>>>>>>> f3d3819 (添加项目文件。)
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+<<<<<<< HEAD
+    <Capability Name="internetClient"/>
+=======
+>>>>>>> f3d3819 (添加项目文件。)
+  </Capabilities>
+</Package>
